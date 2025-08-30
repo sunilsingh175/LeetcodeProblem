@@ -23,7 +23,7 @@ class ReverseLinkedList {
         head.next.next.next = new ListNode(4);
         head.next.next.next.next = new ListNode(5);
 
-        // Reverse using Solution class
+       
         ReverseLinkedList sol = new ReverseLinkedList();
         ListNode newHead = sol.reverseList(head);
 
@@ -41,3 +41,4 @@ class ReverseLinkedList {
     }
     
 }
+
